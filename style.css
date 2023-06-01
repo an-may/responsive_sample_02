@@ -1,0 +1,114 @@
+@charset   "UTF-8";
+ 
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+ 
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+header {
+  background: #68699b;
+  color: #FFF;
+  padding: 20px;
+}
+ 
+.main-menu {
+  background: #68699b;
+}
+ 
+.main-menu ul li {
+  text-align: center;
+}
+ 
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+ 
+.main-menu ul li a:hover {
+  background: #a25768;
+}
+ 
+section {
+  background: #c8c2be;
+  flex: 3;
+  padding: 20px;
+}
+ 
+article {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 20px;  
+}
+ 
+aside {
+  background: #e8ecef;
+  flex: 1;
+}
+ 
+.sub-menu {
+  background: #83ccd2; 
+}
+ 
+.sub-menu ul li {
+  text-align: center;
+}
+ 
+.sub-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+ 
+.sub-menu ul li a:hover {
+  background: #2792c3;
+}
+ 
+footer   {
+  background: #68699b;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+@media all and (min-width: 600px) {
+
+    .main-menu ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .main-menu ul li {
+      text-align: left;
+    }
+  
+    main {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    .sub-menu ul li {
+      text-align: left;
+    }
+  
+  }
+  
+  @media all and (min-width: 1025px) {
+  
+    #wrap {
+      width: 84%;
+      max-width: 1280px;
+    }
+  
+  }
+
+  /* りっつ(@ritz_1st)-和色カラァパレット：伍「薄ら氷の下で」 */
+  /* 百群：#83ccd2,　縹：#2792c3,　潤：#c8c2be,
+     浅蘇芳：#a25768,　紅掛花：#68699b,　白花：#e8ecef */
+  
